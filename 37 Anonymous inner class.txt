@@ -1,0 +1,48 @@
+                              FirstCode.kt
+--------------------------------------------------------------------------------
+
+
+interface  Human
+{
+    fun think()
+}
+
+fun main(args: Array<String>)
+{
+    var programmer : Human = object :  Human
+    {
+        override fun think()
+        {
+            println("Think Virtually....")
+        }
+    }
+    programmer.think()
+}
+
+
+--------------------------------------------------------------------------------
+                             Runner.java
+--------------------------------------------------------------------------------
+
+
+interface  Human
+{
+    void think();
+}
+
+public class Runner
+{
+    public static  void main(String[] args)
+    {
+
+        Human programmer = new Human()
+        {
+            public void think()
+            {
+                System.out.println("Think Virtually....");
+            }
+        };
+
+        programmer.think();
+    }
+}

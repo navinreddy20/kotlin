@@ -1,0 +1,84 @@
+                             FirstCode.kt
+--------------------------------------------------------------------------------
+
+
+import java.lang.NumberFormatException
+import java.math.BigInteger
+import java.util.*
+
+//open class Human()
+//{
+//    init
+//    {
+//        println("in human")
+//    }
+//    open fun think()
+//    {
+//        println("Real Thinking")
+//    }
+//}
+//
+//class Alien : Human()
+//{
+//    init {
+//        println("in alien")
+//    }
+//    override fun think()
+//    {
+//        println("Virtual Thinking")
+//    }
+//}
+//
+//fun main(args: Array<String>)
+//{
+//    var mayank : Human = Alien()
+////    mayank.think()
+//}
+
+
+
+open class Human(age : Int)
+{
+    init
+    {
+        println("in human " + age)
+    }
+    open fun think()
+    {
+        println("Real Thinking")
+    }
+}
+
+class Alien(age: Int) : Human(20)
+{
+    init {
+        println("in alien")
+    }
+    override fun think()
+    {
+        println("Virtual Thinking")
+    }
+}
+
+fun main(args: Array<String>)
+{
+    var mayank : Human = Alien(20)
+//    mayank.think()
+}
+
+
+
+--------------------------------------------------------------------------------
+			    Alien.kt
+--------------------------------------------------------------------------------
+
+class Alien
+{
+
+    var skills : String? = null
+    fun show()
+    {
+        println(skills)
+    }
+
+}

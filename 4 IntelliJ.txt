@@ -1,0 +1,7 @@
+                             FirstCode.kt
+--------------------------------------------------------------------------------
+
+fun main(args : Array<String>)
+{
+	println("Hello Aliens")
+}

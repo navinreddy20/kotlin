@@ -1,0 +1,63 @@
+                             FirstCode.kt
+--------------------------------------------------------------------------------
+
+
+fun main(args: Array<String>)
+{
+//    var nums = 1..5
+//    for (a in nums)
+//    {
+//        println(a)
+//    }
+
+
+
+//    var nums = 1..16
+//    for (a in nums step 2)
+//    {
+//        println(a)
+//    }
+
+
+
+//    var nums = 16 downTo 1
+//    for (a in nums step 2)
+//    {
+//        println(a)
+//    }
+
+//    var nums = 16 until 16
+//    for (a in nums)
+//    {
+//        println(a)
+//    }
+
+
+
+//    var nums = 1 until 16
+//    for (a in nums.reversed())
+//    {
+//        println(a)
+//    }
+//    println("Count is " + nums.count())
+
+
+
+    var nums = 'A'..'z'
+    for (a in nums)
+    {
+        println(a)
+    }
+    println("Count is " + nums.count())
+}
+
+--------------------------------------------------------------------------------
+			    Alien.kt
+--------------------------------------------------------------------------------
+
+class Alien {
+	
+	var name : String? = null
+}
+
+

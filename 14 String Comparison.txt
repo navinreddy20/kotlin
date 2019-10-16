@@ -1,0 +1,45 @@
+                             FirstCode.kt
+--------------------------------------------------------------------------------
+
+fun main(args: Array<String>)
+{
+//    var num1 : Int = 4;
+//    var num2 : Int = 7;
+//
+//    var result : Int = 0
+
+//    result = if (num1 > num2)
+//        num1
+//    else
+//        num2
+//    println(result)
+
+//    result = if (num1 > num2)
+//        num1
+//    else if (num1 < num2)
+//        num2
+//    else
+//        0
+//    println(result)
+
+
+    var str1 : String = "Navin"
+    var str2 : String = "navin"
+
+//    if (str1.equals(str2,true))
+    if (str1 == str2)
+        println("Same")
+    else
+        println("Not Same")
+}
+
+--------------------------------------------------------------------------------
+			    Alien.kt
+--------------------------------------------------------------------------------
+
+class Alien {
+	
+	var name : String? = null
+}
+
+

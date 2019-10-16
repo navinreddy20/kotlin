@@ -1,0 +1,30 @@
+                             FirstCode.kt
+--------------------------------------------------------------------------------
+
+fun main(args : Array<String>)
+{
+	println("Hello Aliens")
+	
+	var tittu = Alien();
+	
+	tittu.name = "Harsh";
+     
+	println("Name is :   ${tittu.name}")
+
+	tittu = Alien()
+
+	println("Name is :   ${tittu.name}")
+}
+
+
+
+
+
+--------------------------------------------------------------------------------
+				Alien.kt (class)
+--------------------------------------------------------------------------------
+
+class Alien
+{
+	var name : String = "";
+}

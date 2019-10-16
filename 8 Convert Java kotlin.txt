@@ -1,0 +1,48 @@
+                             FirstCode.kt
+--------------------------------------------------------------------------------
+
+
+fun main(args: Array<String>)
+{
+    var telusko = Alien();
+    telusko.name = "Navin"
+    println(telusko.name)
+}
+
+
+
+
+--------------------------------------------------------------------------------
+			    Alien.java/Alien.kt
+--------------------------------------------------------------------------------
+
+(----Code In Java---)
+
+public class Alien
+{
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+}
+
+--------------------------------------------------------------------------------
+
+                 (----Converted Java Code to Kotlin----)
+
+Step 1: Select the Java File.
+Step 2: Go to Code Menu
+Step 3: Click on Convert Java File to Kotlin File. 
+--------------------------------------------------------------------------------
+
+class Alien {
+	
+	var name : String? = null
+}
+
+

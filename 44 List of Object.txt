@@ -1,0 +1,33 @@
+                              FirstCode.kt
+--------------------------------------------------------------------------------
+
+
+data class Alien(var name:String, var points:Int)
+
+fun main(args: Array<String>)
+{
+//    var aliens = listOf<Alien>(Alien("Navi",70),Alien("Shweta",80))
+      var aliens : List<Alien> = listOf<Alien>(Alien("Navi",70),Alien("Shweta",80))
+
+    for(alien in aliens)
+    {
+//        println(alien)
+        println(alien.name)
+    }
+
+}
+
+
+--------------------------------------------------------------------------------
+                             Runner.java
+--------------------------------------------------------------------------------
+
+
+
+public class Runner
+{
+    public static  void main(String[] args)
+    {
+      
+    }
+}

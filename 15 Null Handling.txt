@@ -1,0 +1,25 @@
+                             FirstCode.kt
+--------------------------------------------------------------------------------
+
+
+fun main(args: Array<String>)
+{
+    var str : String? = null
+//    var tittu = Alien()
+//    println(tittu.name?.length)
+
+    var tittu : Alien? = Alien()
+    tittu = null
+    println(tittu?.name)
+}
+
+--------------------------------------------------------------------------------
+			    Alien.kt
+--------------------------------------------------------------------------------
+
+class Alien {
+	
+	var name : String? = null
+}
+
+

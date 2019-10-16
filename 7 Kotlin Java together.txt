@@ -1,0 +1,30 @@
+                             FirstCode.kt
+--------------------------------------------------------------------------------
+
+
+fun main(args: Array<String>)
+{
+    var telusko = Alien();
+    telusko.name = "Navin"
+    println(telusko.name)
+}
+
+
+
+
+--------------------------------------------------------------------------------
+				Alien.java
+--------------------------------------------------------------------------------
+
+public class Alien
+{
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+}

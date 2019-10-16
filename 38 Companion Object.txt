@@ -1,0 +1,53 @@
+                              FirstCode.kt
+--------------------------------------------------------------------------------
+
+
+//class A
+//{
+//    companion object
+//    {
+//        fun show()
+//        {
+//            println("Hello")
+//        }
+//    }
+//}
+//
+//fun main(args: Array<String>)
+//{
+//    A.show()
+//}
+
+
+
+class A
+{
+    companion object
+    {
+        @JvmStatic
+        fun show()
+        {
+            println("Hello")
+        }
+    }
+}
+
+fun main(args: Array<String>)
+{
+    A.show()
+}
+
+
+--------------------------------------------------------------------------------
+                             Runner.java
+--------------------------------------------------------------------------------
+
+
+
+public class Runner
+{
+    public static  void main(String[] args)
+    {
+        A.show();
+    }
+}
